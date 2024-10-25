@@ -4,6 +4,8 @@
     <title>Delicias & Manjarex</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
@@ -36,9 +38,18 @@
     <section id="menu-diario" class="menu-diario">
         <div class="menu-card">
             <h2 class="tagline">Descubre nuestros platos para hoy:</h2>
-            <img src="assets/menu.jpg" alt="Carta del menú diario" width="600" height="800">
+            <img src="assets/menu.jpg" alt="Carta del menú diario" width="600" height="800" class="menu-image">
         </div>
     </section>
+    
+    <!-- Modal -->
+    <div id="menu-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="assets/menu.jpg" alt="Carta del menú diario en detalle" class="modal-image">
+        </div>
+    </div>
+    
 
     <section id="por-encargo" class="por-encargo">
         <div class="por-encargo-content">
